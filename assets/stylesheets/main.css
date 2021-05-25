@@ -1,2 +1,7 @@
 @import url("../fonts/inter.css");
 @import url("../fonts/librebaskerville.css");
+
+body {
+  font-family: "Inter var";
+  text-rendering: optimizeLegibility;
+}
