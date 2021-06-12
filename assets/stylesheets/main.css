@@ -75,3 +75,31 @@ nav > div > a:hover {
 .nav-right { 
   display: flex;
 }
+
+/* Rest of bg-top */
+
+main { 
+  align-self: flex-end;
+}
+
+/* bg-bottom below */
+
+.bg-bottom { 
+  min-height: 100vh;
+  padding: 4em 4em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url("../images/bg-bottom.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-header {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
