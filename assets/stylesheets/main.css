@@ -5,3 +5,60 @@ body {
   font-family: "Inter var";
   text-rendering: optimizeLegibility;
 }
+
+/* Start of bg-top */
+
+.bg-top {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-image: url("../images/bg-top.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+header > nav {
+  display: flex;
+}
+
+/* Selects all links on navbar */
+nav > div > a {
+  transition: background-color 0.2s;
+  padding: 2em 1em;
+  text-decoration: none;
+}
+
+nav > div > a:visited {
+  color: white;
+}
+
+nav > div > a:hover {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+/* Specific to download button */
+.btn-download {
+  color: black;
+  background-color: hsl(48, 100%, 53%)
+}
+
+.btn-download:hover {
+  background-color: hsl(48, 100%, 70%)
+}
+
+.nav-left { 
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-right { 
+  display: flex;
+}
