@@ -68,6 +68,10 @@ nav > div > a:hover {
   flex: 1;
 }
 
+.nav-left > a {
+  text-transform: uppercase;
+}
+
 .nav-right { 
   display: flex;
 }
