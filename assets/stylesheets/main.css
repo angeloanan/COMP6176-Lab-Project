@@ -33,7 +33,9 @@ nav > div > a {
   padding: 2rem 1rem;
 
   transition: background-color 0.2s;
+  
   text-decoration: none;
+  color: white;
 }
 
 nav > div > a:visited {
