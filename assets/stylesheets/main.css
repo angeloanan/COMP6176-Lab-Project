@@ -30,8 +30,9 @@ header > nav {
 
 /* Selects all links on navbar */
 nav > div > a {
+  padding: 2rem 1rem;
+
   transition: background-color 0.2s;
-  padding: 2em 1em;
   text-decoration: none;
 }
 
@@ -45,6 +46,14 @@ nav > div > a:hover {
 
 /* Specific to download button */
 .btn-download {
+  height: 100%;  
+  display: flex;
+  align-items: center;
+  padding: 0 2em;
+
+  font-size: 24px;
+  font-weight: 700;
+
   color: black;
   background-color: hsl(48, 100%, 53%)
 }
