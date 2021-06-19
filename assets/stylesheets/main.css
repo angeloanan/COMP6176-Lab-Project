@@ -160,3 +160,9 @@ main {
   text-transform: uppercase;
 }
 
+
+/* Utils */
+
+.flex-spacer {
+  flex-grow: 1;
+}
