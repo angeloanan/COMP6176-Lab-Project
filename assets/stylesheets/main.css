@@ -18,7 +18,8 @@ a {
 
 .bg-top {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   min-height: 100vh;
 
   background-image: url("../images/bg-top.png");
@@ -101,6 +102,23 @@ nav > div > a:hover {
 
 main { 
   align-self: flex-end;
+  margin-bottom: 8rem;
+}
+
+.btn-playnow {
+  padding: 0.5em 1em;
+  border-radius: 0.125em;
+
+  color: black;
+  font-size: 48px;
+  font-weight: 500;
+
+  transition: background-color 0.2s;
+  background-color: hsl(51, 100%, 50%);
+}
+
+.btn-playnow:hover {
+  background-color: hsl(51, 100%, 65%);
 }
 
 /* bg-bottom below */
