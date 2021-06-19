@@ -103,9 +103,14 @@ nav > div > a:hover {
 main { 
   align-self: flex-end;
   margin-bottom: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .btn-playnow {
+  width: fit-content;
   padding: 0.5em 1em;
   border-radius: 0.125em;
 
@@ -121,11 +126,24 @@ main {
   background-color: hsl(51, 100%, 65%);
 }
 
+.badge-download {
+  padding: 2rem 2rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.badge-download > a > img {
+  height: 4rem;
+  margin: 0rem 1rem;
+}
+
 /* bg-bottom below */
 
 .bg-bottom { 
   min-height: 100vh;
-  padding: 4em 4em;
+  margin-top: 4em;
 
   display: flex;
   flex-direction: column;
