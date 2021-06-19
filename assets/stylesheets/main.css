@@ -1,9 +1,17 @@
+@import url("./cssreset.css");
 @import url("../fonts/inter.css");
 @import url("../fonts/librebaskerville.css");
 
+/* Personalized cssreset */
 body {
   font-family: "Inter var";
   text-rendering: optimizeLegibility;
+  background-color: white;
+}
+
+a { 
+  color: white;
+  text-decoration: none;
 }
 
 /* Start of bg-top */
@@ -22,10 +30,22 @@ body {
 header {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
+  position: sticky;
+  top: -1px
 }
 
-header > nav {
+nav {
   display: flex;
+}
+
+.logo {
+  width:10em;
+  padding: 2em 0.5em;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/logo.png");
 }
 
 /* Selects all links on navbar */
@@ -67,7 +87,6 @@ nav > div > a:hover {
 .nav-left { 
   display: flex;
   justify-content: center;
-  flex: 1;
 }
 
 .nav-left > a {
