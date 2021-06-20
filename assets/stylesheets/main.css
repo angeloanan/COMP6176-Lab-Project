@@ -227,6 +227,60 @@ main {
   text-transform: uppercase;
 }
 
+/* Footer */
+
+footer {
+  min-height: 20vh;
+
+  display: flex;
+  direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  background-color: hsl(0, 0%, 7%);
+}
+
+.footer-legal {
+  line-height: 1.5em;
+}
+
+.footer-legal-links > a {
+  padding: 0em 1em;
+}
+
+.footer-legal-links > a:not(:last-child) {
+  border-right: solid white 1px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-community {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-community-header {
+  display: flex;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.footer-community-icons {
+  display: flex;
+}
+
+.footer-community-icons > a > object {
+  padding: 1em .5em;
+  width: 2em;
+  filter: invert();
+}
 
 /* Utils */
 
