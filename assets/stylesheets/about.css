@@ -1,0 +1,173 @@
+.masthead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  background-image: url("../images/bg-bottom.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.masthead > div {
+  max-width: 70vw;
+}
+
+.masthead-heading {
+  padding: 0.5em 0.125em;
+
+  background-color: hsl(51, 100%, 50%);
+  font-size: 72px;
+  font-weight: 700;
+
+  color: black;
+  text-shadow: white 4px 2px;
+  text-align: center;
+}
+
+.masthead-desc {
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+  
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Features */
+
+.features { 
+  padding: 8rem 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Hero Pattern - Leaf (https://www.heropatterns.com/) */
+  background-color: #83bc47;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%23ffd700' fill-opacity='1' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");  
+}
+
+.feature-title {
+  background-color: white;
+  padding: 0.5em 1em;
+  box-shadow: 5px 5px gray;
+
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.feature-comparison {
+  margin-top: 8rem;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: white;
+  min-height: 50vh;
+  width: 70vw;
+  
+  box-shadow: 10px 10px gray;
+}
+
+.feature-comparison-image {
+  width: 100%;
+  flex: 2;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.feature-comparison-description {
+  padding: 2rem 2rem;
+  flex: 1;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-comparison-description-heading {
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+.feature-comparison-description-content {
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+/* Image specifics to features below */
+
+#open-world .feature-comparison-image {
+  background-image: url(../images/features/img6.webp);
+}
+
+#intense-combat .feature-comparison-image {
+  background-image: url(../images/features/img5.webp);
+}
+
+#variety-cast .feature-comparison-image {
+  background-image: url(../images/features/img2.webp)
+}
+
+#immerse-world .feature-comparison-image {
+  background-image: url(../images/features/img1.webp);
+}
+
+/* Call to actions */
+.cta { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 75vh;
+  background-image: url(../images/features/img3.webp);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.cta-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  height: 50vh;
+  width: 60vw;
+  
+  background-color: hsl(89, 47%, 51%);
+  border: 10px solid black;
+}
+
+.cta-pics {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/KleeFishing.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.cta-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.cta-text .btn-download {
+  margin-top: 2em;
+  padding: 1em 0.5em;
+}
