@@ -5,7 +5,7 @@
   justify-content: center;
   min-height: 100vh;
 
-  background-image: url("../images/bg-bottom.png");
+  background-image: url("../images/bg-bottom.webp");
   background-size: cover;
   background-position: bottom;
 }

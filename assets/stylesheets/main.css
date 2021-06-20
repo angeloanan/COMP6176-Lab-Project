@@ -34,7 +34,7 @@ nav {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/logo.png");
+  background-image: url("../images/logo.webp");
 }
 
 /* Selects all links on navbar */

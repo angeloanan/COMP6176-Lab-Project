@@ -6,7 +6,7 @@
   justify-content: center;
   min-height: 100vh;
 
-  background-image: url("../images/bg-top.png");
+  background-image: url("../images/bg-top.webp");
   background-size: cover;
   background-position: bottom;
 }
@@ -62,7 +62,7 @@ main {
   align-items: center;
   justify-content: center;
 
-  background-image: url("../images/bg-mid.jpg");
+  background-image: url("../images/bg-mid.webp");
   background-size: cover;
   background-position: center;
 }
@@ -121,7 +121,7 @@ main {
   flex-direction: column;
   align-items: center;
 
-  background-image: url("../images/bg-bottom.png");
+  background-image: url("../images/bg-bottom.webp");
   background-size: cover;
   background-position: center;
 }
