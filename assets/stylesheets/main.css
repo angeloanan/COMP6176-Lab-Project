@@ -135,7 +135,7 @@ main {
 }
 
 .badge-download {
-  padding: 2rem 2rem;
+  padding: 4rem 2rem;
 
   display: flex;
   flex-direction: row;
@@ -147,11 +147,70 @@ main {
   margin: 0rem 1rem;
 }
 
+/* bg-mid below */
+
+.bg-mid {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../images/bg-mid.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.story-container {
+  display: flex;
+  max-width: 80vw;
+}
+
+.story-desc {
+  background: linear-gradient(to bottom right, hsl(80, 8%, 85%), hsl(218, 31%, 65%));
+  flex: 1 0;
+}
+
+.story-title {
+  padding: 1.5rem 0;
+
+  display: flex;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.story-title > span {
+  padding: 0em 0.5em;
+}
+
+.story-title > img {
+  height: 1em;
+}
+
+.story-content {
+  padding: 0em 2em;
+  line-height: 1.250em;
+
+  font-size: 24px;
+}
+
+.story-video {
+  flex: 2 2;
+}
+
+.story-video > img {
+  width: 100%;
+  height: 100%
+}
+
 /* bg-bottom below */
 
 .bg-bottom { 
   min-height: 100vh;
-  margin-top: 4em;
+  padding-top: 4em;
 
   display: flex;
   flex-direction: column;
