@@ -1,0 +1,49 @@
+main {
+  min-height: 100vh;
+  background-color: coral;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: black;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.slideshow {
+  margin-top: 4rem;
+  width: 70vw;
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+}
+
+.slideshow-btn {
+  z-index: 1;
+  cursor: pointer;
+  flex: 1;
+  height: 100%;
+  background-color: hsla(0, 0%, 20%, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  user-select: none;
+}
+
+.slideshow-mask {
+  flex: 14;
+  display: flex;
+
+  transition: transform 0.25s ease-in-out;
+}
+
+.slideshow-mask > img {
+  width: 100%;
+}
