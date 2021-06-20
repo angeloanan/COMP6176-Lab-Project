@@ -18,21 +18,32 @@
     <nav>
       <div class="nav-left">
         <div class="logo"></div>
-        <a href="./index.html">Home</a>
-        <a href="./index.html">
-          Character
-          <img src="./assets/images/heroicons/chevron-down.svg" alt="Hover" class="nav-icon"></a>
-        <a href="">
-          About Game
-          <img src="./assets/images/heroicons/chevron-down.svg" alt="Hover" class="nav-icon"></a>
-        <a href="gallery.html">Gallery</a>
+        <a href="index.html">Home</a>
+        <div class="nav-dropdown">
+          <a href="characters.html">
+            Character
+            <img src="assets/images/heroicons/chevron-down.svg" alt="Hover" class="nav-icon">
+          </a>
+          <div class="nav-dropdown-content">
+            <a href="characters.html#mondstat">Mondstat</a>
+            <a href="characters.html#liyue">Li Yue</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="about.html">
+            About Game
+            <img src="assets/images/heroicons/chevron-down.svg" alt="Hover" class="nav-icon">
+          </a>
+          <div class="nav-dropdown-content">
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        </div>
       </div>
       <div class="flex-spacer"></div>
       <div class="nav-right">
         <a href="register.html">Log In / Register</a>
-        <a href="register.html" class="btn-download">
-          Download
-        </a>
+        <a href="register.html" class="btn-download">Download</a>
       </div>
     </nav>
   </header>

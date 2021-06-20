@@ -38,7 +38,7 @@ nav {
 }
 
 /* Selects all links on navbar */
-nav > div > a {
+nav a {
   padding: 2rem 1rem;
 
   display: flex;
@@ -48,12 +48,24 @@ nav > div > a {
   color: white;
 }
 
-nav > div > a:visited {
+nav a:visited {
   color: white;
 }
 
-nav > div > a:hover {
+nav a:hover {
   background-color: rgba(255, 255, 255, 0.5)
+}
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 20ch;
+  z-index: 1;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+  display: block;
 }
 
 .nav-icon {
@@ -89,7 +101,7 @@ nav > div > a:hover {
   justify-content: center;
 }
 
-.nav-left > a {
+.nav-left a {
   text-transform: uppercase;
 }
 
