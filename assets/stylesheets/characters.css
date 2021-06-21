@@ -66,6 +66,20 @@
   font-weight: 700;
 }
 
+#mondstat .section-header {
+  color: white;
+}
+
+#mondstat .gallery-content {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 #liyue .section-header {
   color: white;
+}
+
+#liyue .gallery-content {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
 }
