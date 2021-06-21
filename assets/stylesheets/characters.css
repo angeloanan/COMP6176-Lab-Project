@@ -49,11 +49,15 @@
 
 .gallery-content > img {
   flex: 1;
-  width: 50%
+  width: 50%;
+  height: auto;
 }
 
 .gallery-content-desc {
+  padding: 2em 2em;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -62,8 +66,14 @@
 }
 
 .gallery-content-desc-title {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 700;
+}
+
+.gallery-content-desc-story {
+  margin-top: 2rem;
+  line-height: 1.5em;
+  font-size: 20px;
 }
 
 #mondstat .section-header {

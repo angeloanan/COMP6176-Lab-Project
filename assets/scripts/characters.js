@@ -1,6 +1,3 @@
-// Typescript would help alot here
-// Just saying...
-
 function revealCharacter(area, character) {
   console.log(`From ${area}, opening ${character}`);
   document.querySelectorAll(`#${area}-gallery .gallery-content`).forEach((el) => el.style.display = 'none')
