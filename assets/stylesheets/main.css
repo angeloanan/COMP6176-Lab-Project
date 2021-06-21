@@ -116,7 +116,7 @@ footer {
   min-height: 20vh;
 
   display: flex;
-  direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 
@@ -182,6 +182,17 @@ footer {
 
   .btn-download {
     padding: 0 1em;
+  }
+}
+
+@media (max-width: 1200px) {
+  footer {
+    padding: 2rem 0rem;
+    flex-direction: column;
+  }
+
+  .footer-community {
+    margin-top: 2rem;
   }
 }
 
