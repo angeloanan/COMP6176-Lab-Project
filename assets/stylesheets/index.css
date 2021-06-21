@@ -74,6 +74,9 @@ main {
 
 .story-desc {
   background: linear-gradient(to bottom right, hsl(80, 8%, 85%), hsl(218, 31%, 65%));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex: 1 0;
 }
 
@@ -98,8 +101,10 @@ main {
 .story-content {
   padding: 0em 2em;
   line-height: 1.250em;
-
-  font-size: 20px;
+  
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 24px;
 }
 
 .story-video {
@@ -128,6 +133,9 @@ main {
 }
 
 .text-header {
+  font-family: "Libre Baskerville";
+  color: black;
+  letter-spacing: 0.25em;
   font-size: 56px;
   font-weight: 700;
   text-transform: uppercase;
@@ -182,10 +190,16 @@ main {
     max-width: 100vw;
   }
   .story-content {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .slideshow {
     width: 100vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .story-content {
+    font-size: 16px;
   }
 }
