@@ -83,10 +83,10 @@ main {
 
 .story-title {
   padding: 1.5rem 0;
-
+  
   display: flex;
   justify-content: center;
-
+  
   font-weight: 700;
   font-size: 48px;
 }
@@ -109,12 +109,16 @@ main {
 }
 
 .story-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to top right, hsl(218, 31%, 65%), hsl(80, 8%, 85%));
   flex: 2 2;
 }
 
 .story-video > img {
   width: 100%;
-  height: 100%
+  height: auto;
 }
 
 /* bg-bottom below */
