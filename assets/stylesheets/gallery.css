@@ -47,3 +47,21 @@ main {
 .slideshow-mask > img {
   width: 100%;
 }
+
+@media (max-width: 1536px) {
+  .slideshow {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 1367px) {
+  .slideshow {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slideshow {
+    width: 100vw;
+  }
+}
