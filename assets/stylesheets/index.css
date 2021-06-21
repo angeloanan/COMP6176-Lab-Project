@@ -187,20 +187,23 @@ main {
 }
 
 @media (max-width: 1280px) {
-  .story-container {
-    max-width: 100vw;
-  }
-  .story-content {
-    font-size: 20px;
-  }
-
   .slideshow {
     width: 100vw;
   }
-}
+  
+  .story-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 80vw;
+  }
+  
+  .story-desc {
+    margin-top: 2rem;
+    font-size: 20px;
+    padding: 2em 1em;
+  }
 
-@media (max-width: 1000px) {
-  .story-content {
-    font-size: 16px;
+  .slideshow-btn {
+    flex: unset;
   }
 }
