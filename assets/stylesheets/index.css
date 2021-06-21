@@ -171,6 +171,10 @@ main {
   .story-container {
     max-width: 90vw;
   }
+
+  .slideshow {
+    width: 85vw;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -180,3 +184,8 @@ main {
   .story-content {
     font-size: 16px;
   }
+
+  .slideshow {
+    width: 100vw;
+  }
+}
