@@ -12,7 +12,10 @@
   background-position: bottom;
 }
 
-form { 
+form {
+  padding: 2rem;
+  background-color: hsla(0, 0%, 7%, 0.6);
+
   color: white;
   display: flex;
   flex-direction: column;
@@ -28,4 +31,8 @@ form {
 
 .form-input {
   padding: 0.5em 0em;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
 }
